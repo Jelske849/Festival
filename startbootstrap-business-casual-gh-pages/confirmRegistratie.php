@@ -21,7 +21,7 @@
             $query = mysqli_query($db, $sql);
 
             if(mysqli_affected_rows($db) === 1){
-                echo "<h1> Gebruiker $voornaam $Achternaam is toegevoegd aan de database!</h1>";
+               echo header("Location: profiel.php") ;
             }
         
 

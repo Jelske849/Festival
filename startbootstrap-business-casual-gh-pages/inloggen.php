@@ -88,9 +88,9 @@ if(!empty($_POST['email']) && !empty($_POST['wachtwoord'])){
             <h2 class="section-heading mb-5">
                 <span class="section-heading-lower">Inloggen</span><br>
                 <form method="post">
-                  E-mail: <input type="email" name="email"><br>
+                  E-mail: <input  type="email" name="email"><br>
                   Wachtwoord: <input type="password" name="wachtwoord">
-                   <input type="submit" value="Submit">
+                   <input type="submit" value="Inloggen">
                </form>
                <br>
                 <span class="section-heading-upper" > <a href="registratie.php">Nog geen account?</a></span>
